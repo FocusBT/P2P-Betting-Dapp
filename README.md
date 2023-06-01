@@ -8,7 +8,7 @@
 
 
 ## Overview
-This repository contains the implementation of a Peer-to-Peer (P2P) betting decentralized application (DApp) named **P2P Betting**. This DApp is powered by the Ethereum network, integrating **Chainlink and off-chain APIs** to ensure trustless and automated operation.
+This repository contains the implementation of a Peer-to-Peer (P2P) betting decentralized application (DApp) named **P2P Betting**. This DApp is powered by the Polygon network, integrating **Chainlink and off-chain APIs** to ensure trustless and automated operation.
 
 The DApp allows users to place bets on various sports such as NBA, NBK, and more. The betting occurs in two types of pools: 1v1 Betting and Public Pools. A third type, Private Pools, is currently under development.
 

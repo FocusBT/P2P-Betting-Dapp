@@ -1,5 +1,11 @@
 # P2P Betting DApp
 
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/FocusBT/P2P-Betting-Dapp/blob/6a3c490ff82e19fcde0284e98dfaecc655576df1/src/assets/1.png">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/FocusBT/P2P-Betting-Dapp/blob/6a3c490ff82e19fcde0284e98dfaecc655576df1/src/assets/1.png">
+ <img alt="P2P Betting Logo" src="https://github.com/FocusBT/P2P-Betting-Dapp/blob/6a3c490ff82e19fcde0284e98dfaecc655576df1/src/assets/1.png">
+</picture>
+
 
 ## Overview
 This repository contains the implementation of a Peer-to-Peer (P2P) betting decentralized application (DApp) named **P2P Betting**. This DApp is powered by the Ethereum network, integrating **Chainlink and off-chain APIs** to ensure trustless and automated operation.

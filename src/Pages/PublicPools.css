@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+
+
+/*  */
+.btnn {
+    font-size: 1vw;
+    margin-left: 3vw;
+    background-color: skyblue;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8%;
+}
+
+.btnn:hover {
+    transition: 1.5s;
+    border: 1px solid black;
+    color: bluei;
+    background-color: orange;
+}
+
+
+
+
+.main {
+    max-width: 1980px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.date {
+    border: 1px solid black;
+    border-bottom: 0;
+    border-top: 0;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+.teams {
+    /* padding: 2vw 0; */
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    font-size: 5.5vw;
+
+}
+
+.team1 {
+
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+
+
+}
+
+.locked {
+    font-size: 1vw;
+    margin-left: 3vw;
+    background-color: skyblue;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8%;
+
+}
+
+.locked:hover {
+    transition: 1.5s;
+    border: 1px solid black;
+    color: bluei;
+    background-color: orange;
+    cursor: not-allowed;
+}
+
+
+
+.team2 {
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+
+
+}
+
+.logo {
+    width: 2vw;
+    height: 2vw;
+}
+
+
+
+.vs {
+    font-size: 3rem;
+    margin: 0 6vw;
+}
+
+.linear {
+    background: rgb(124, 120, 195);
+    background: linear-gradient(90deg, rgba(124, 120, 195, 1) 0%, rgba(89, 89, 164, 1) 60%, rgba(26, 155, 173, 1) 100%);
+}
+
+.header {
+
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 4vw;
+    outline: 1px solid;
+    color: black;
+}
+
+.won {
+    color: green;
+}
+
+.lost {
+    color: red;
+}
+
+.week {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.textinput {
+    width: 10vw;
+    height: 2vw;
+    border-radius: 4px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.3s all;
+
+}
+
+.textinput:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 960px) {
+
+    .header {
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    .week {
+        font-size: 3.5vw;
+        margin: 0;
+    }
+
+    .btnn {
+        font-size: 2vw;
+
+    }
+
+    .teams {
+        padding: 10px;
+        font-size: 5rem;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .date {
+        font-size: 1.5rem;
+    }
+
+    .teamName {
+        font-size: 4vw;
+    }
+
+}

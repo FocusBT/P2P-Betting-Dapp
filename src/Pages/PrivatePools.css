@@ -1,0 +1,49 @@
+.join {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 8rem;
+    border: 2px solid;
+    width: 75%;
+
+}
+
+.inputt {
+    margin-top: 2rem;
+}
+
+.btn1 {
+    margin-bottom: 4vw;
+}
+
+.label {
+    margin-right: 3vw;
+}
+
+.create {
+    max-width: 700px;
+    max-height: 700px;
+    border: 2px solid black;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.calender {
+    font-size: 4vw;
+    max-width: 700px;
+    max-height: 700px;
+    border: 55px;
+    padding: 19px;
+}
+
+.Datepicker {}
+
+.register {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 8rem;
+    border: 2px solid;
+    width: 75%;
+}

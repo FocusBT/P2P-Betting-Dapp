@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+// App.js
+import * as React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Navbar from "./Navbar";
+import PublicPools from "./Pages/PublicPools";
+import NBA from "./Pages/NBA";
+import ContractState from "./context/ContractState";
+import OneVOne from "./Pages/OneVOne";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ContractState>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route forceRefresh={true} path="nfl" element={<NBA />} />
+          <Route path="public" element={<PublicPools />} />
+          <Route path="OneVOne" element={<OneVOne />} />
+        </Routes>
+      </ContractState>
     </div>
   );
 }

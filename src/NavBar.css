@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,600;1,400&display=swap');
+
+
+* {
+    color: white;
+}
+
+html {
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    /* text-align: left; */
+    background-color: black;
+    padding: 2em 0;
+
+}
+
+.container {
+    margin-left: 4vw;
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.mainLogo {
+    margin-top: 0.5vh;
+    width: 60px;
+    height: 40px;
+}
+
+
+
+nav ul {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav li {
+    margin: 0 1em;
+    font-size: 3rem;
+    color: white;
+}
+
+ul li:nth-child(6) {
+    padding: 0;
+    margin: 0;
+    margin-right: 2rem;
+}
+
+.copy:hover {
+    color: skyblue;
+    transition: 0.9s;
+}
+
+
+ul li:nth-child(7) {
+
+    /* border: 1px solid white; */
+    padding: 0;
+    margin: 0;
+}
+
+ul li:nth-child(8) {
+    display: flex;
+}
+
+ul li:nth-child(9) {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+.wallet-balance {
+    margin-left: 10px;
+
+    color: white;
+}
+
+
+
+/* ul li:nth-child(8),
+ul li:nth-child(9),
+ul li:nth-child(10) {
+    margin: 0;
+    padding: 0;
+
+} */
+
+
+
+
+
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:visited {
+    color: white;
+}
+
+
+nav a:hover,
+nav a:focus {
+    transition: 0.9s;
+    color: skyblue;
+}
+
+@media (max-width: 960px) {
+
+    /* .container {
+        max-width: 100%;
+    } */
+    .address {
+        font-size: 3rem;
+    }
+
+
+
+    .container {
+        font-size: larger;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+
+        margin: 0 auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        padding: 4.5vw;
+        font-size: 5.5rem;
+    }
+
+
+
+}

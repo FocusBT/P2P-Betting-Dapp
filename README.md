@@ -1,6 +1,5 @@
 # P2P Betting DApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Overview
 This repository contains the implementation of a Peer-to-Peer (P2P) betting decentralized application (DApp) named **P2P Betting**. This DApp is powered by the Ethereum network, integrating **Chainlink and off-chain APIs** to ensure trustless and automated operation.

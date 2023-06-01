@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# P2P Betting DApp
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Overview
+This repository contains the implementation of a Peer-to-Peer (P2P) betting decentralized application (DApp) named **P2P Betting**. This DApp is powered by the Ethereum network, integrating **Chainlink and off-chain APIs** to ensure trustless and automated operation.
 
-In the project directory, you can run:
+The DApp allows users to place bets on various sports such as NBA, NBK, and more. The betting occurs in two types of pools: 1v1 Betting and Public Pools. A third type, Private Pools, is currently under development.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**1v1 Betting**: This feature displays all scheduled matches, and users can place bets on any team. Bets are displayed live on the website, showcasing the amount of bet placed on each team in a particular match. Other users can place the same amount of bet on the teams.
 
-### `npm test`
+**Public Pools**: Public pools are a weekly play where users join by paying an entry fee a week prior. Once joined, users select their preferred teams in the scheduled games for the week. Each correct prediction earns a user 1 point. The users with the highest points from their predictions top the pool's ranking.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Private Pools**: This feature is currently under development. It's anticipated to provide a more tailored betting experience to the users.
 
-### `npm run build`
+**Chainlink Integration**: We use Chainlink to automate the process of choosing the winners, ensuring a trustless, secure, and efficient environment for our users.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Built With
+1. Solidity ^0.8.4
+2. OpenZeppelin Contracts
+3. React
+4. Web3.js
+5. Chainlink
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
